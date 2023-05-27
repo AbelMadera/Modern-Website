@@ -58,6 +58,7 @@ button span {
     width: 26px;
     border-radius: 50%;
     margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
 }
 /* Lamp Container */
 .lamp-container {
@@ -76,6 +77,7 @@ button span {
     transform: translateX(-50%);
     width: 700px;
     margin-left: -10px;
+    opacity: 0;
 }
 /* Text Container */
 .text-container {
@@ -96,4 +98,32 @@ button span {
     font-size: 18px;
     margin-top: 30px;
     border-radius: 30px;
+}
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+.control .line {
+    width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+.control .line span {
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+}
+.active{
+    background: green;
+}
+.active span {
+    background: #fff;
+    margin-left: 31px;
 }
