@@ -12,6 +12,7 @@
     color: #fff;
     position: relative;
 }
+/* Nav */
 nav{
     display: flex;
     align-items: center;
@@ -26,6 +27,7 @@ nav .logo {
     width: 160px;
     cursor: pointer;
 }
+/* Nav Items */
 nav ul {
     flex: 1;
     text-align: right;
@@ -39,6 +41,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+/* Nav Button */
 button {
     background: #efefef;
     height: 30px;
@@ -55,4 +58,22 @@ button span {
     width: 26px;
     border-radius: 50%;
     margin-left: 2px;
+}
+/* Lamp Container */
+.lamp-container {
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 200px;
+}
+.lamp {
+    width: 100%;
+}
+.light {
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px;
 }
